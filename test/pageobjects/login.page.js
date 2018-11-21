@@ -10,7 +10,6 @@ class LoginPage extends Page {
     get passwordInput()   { return browser.element('//*[@name="password"]'); }
     get rememberMe ()     { return browser.element('//span[contains(., "Remember Me")]'); }
     get loginButton()     { return browser.element('//button[contains(., "Login")]'); }
-    get footerImage()     { return browser.element('//*[@class="foot-brand center-block img-responsive"]'); }
 
     /**
      * define or overwrite page methods
@@ -24,10 +23,9 @@ class LoginPage extends Page {
      */
 
     waitForloginPageToLoad () {
-      if(!this.footerImage.isVisible()){
-        this.footerImage.waitForVisible(10000);
+    //  if(!this.footerImage.isVisible()){
+      //  this.footerImage.waitForVisible(10000);
       }
-    }
 
     login (username, password) {
       this.waitForloginPageToLoad();

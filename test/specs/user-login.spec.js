@@ -1,6 +1,5 @@
 
 import LoginPage from '../pageobjects/login.page';
-import assert from 'assert';
 
 
 /*
@@ -10,6 +9,6 @@ import assert from 'assert';
 describe('phptravels.net login page', function() {
   it('should allow user to login ', function () {
     LoginPage.open();     // navigating to login page
-    LoginPage.login('user@phptravels.com', 'demouser');    // entering user name, password and and submiting the page
+    LoginPage.login('abc@gmail.com', 'password');    // entering user name, password and and submiting the page
   });
 });
