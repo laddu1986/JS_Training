@@ -33,7 +33,7 @@
     "junit-viewer": "^4.11.1",
     "mocha": "^2.5.3",
     "node-inspector": "^1.1.1",
-    "underscore": "^1.8.3",
+    "underscore": "^1.12.1",
     "wdio-allure-reporter": "^0.6.0",
     "wdio-dot-reporter": "0.0.5",
     "wdio-json-reporter": "^0.1.1",
